@@ -7,7 +7,9 @@ def initialize(name, wallet)
   @wallet = wallet
 end
 
-
+def pay_for_drink(drink)
+  @wallet -= drink
+end
 
 
 end
